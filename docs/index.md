@@ -11,14 +11,15 @@ hero:
       text: Getting Started
       link: /getting-started
     - theme: alt
+      text: Type Checking
+      link: /type-checking
+    - theme: alt
       text: Validation
-      link: /validate-schema
+      link: /validation
 
 features:
-  - title: Check JS Types
+  - title: Check Types
     details: Standard javascript type checking
-  - title: Check TS Types
-    details: Same as before but different
   - title: Schema validation
     details: Validate javascript schema
 ---

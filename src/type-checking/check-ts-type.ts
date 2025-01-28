@@ -23,7 +23,7 @@ export function checkTsType<T>(value: T): string {
 }
 
 // Helper to determine array element types
-function checkArrayType(array: any[]): string {
+function checkArrayType(array: unknown[]): string {
   if (array.length === 0) return "any"; // Empty arrays have no specific type
 
   const elementTypes = new Set(array.map(checkTsType)); // Infer types of elements

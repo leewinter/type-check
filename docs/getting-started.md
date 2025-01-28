@@ -8,19 +8,9 @@ Install the library via npm:
 npm install @leewinter/type-check
 ```
 
----
-
 ## Usage
 
 ### Importing the Library
-
-#### JavaScript
-
-```javascript
-const { typeField } = require("@leewinter/type-check");
-```
-
-#### TypeScript
 
 ```typescript
 import { typeField } from "@leewinter/type-check";
@@ -100,8 +90,8 @@ import { validateSchema } from "@leewinter/type-check";
 const schema = {
   name: typeField<string>(SupportedType.STRING).required("Name is required."),
   age: typeField<number>(SupportedType.NUMBER).minLength(
-    1,
-    "Age must be at least 1."
+    16,
+    "Age must be at least 16."
   ),
 };
 
@@ -111,6 +101,7 @@ const model = {
 };
 
 const result = validateSchema(schema, model);
+
 console.log(result);
 ```
 
@@ -131,7 +122,7 @@ console.log(result);
     "required": null,
     "minLength": {
       "length": 1,
-      "validationMessages": "Age must be at least 1.",
+      "validationMessages": "Age must be at least 16.",
       "valid": false
     },
     "maxLength": null,

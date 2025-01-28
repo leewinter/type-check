@@ -1,5 +1,7 @@
 # [type-check](https://leewinter.github.io/type-check/)
 
+[![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)](https://www.npmjs.com/package/@leewinter/type-check)
+
 ![License: MIT](https://img.shields.io/github/license/leewinter/type-check)
 ![Version](https://img.shields.io/github/package-json/v/leewinter/type-check)
 ![GitHub last commit](https://img.shields.io/github/last-commit/leewinter/type-check)

@@ -14,12 +14,11 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: "Examples",
+        text: "Docs",
         items: [
           { text: "Getting Started", link: "/getting-started" },
-          { text: "API Reference", link: "/api-reference" },
-          { text: "Validate Schema", link: "/validate-schema" },
-          { text: "Evaluate Schema", link: "/evaluate-schema" },
+          { text: "Type Checking", link: "/type-checking" },
+          { text: "Validation", link: "/validation" },
         ],
       },
     ],
